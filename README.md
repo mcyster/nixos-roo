@@ -1,14 +1,22 @@
 # Nixos Config for Roo
 
-This is the /etc/nixos directory on my roo laptop, an aging Macbook Pro.
+This is the `/etc/nixos` directory on my roo laptop, an aging Macbook Pro.
 
 The configuration is minimal, most of the custom installation and configuration is done under my user using `nix-env` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-env> or `nix-shell` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-shell>
+
+Making changes:
+..* change configuration 
+..* `nix-rebuild switch`
+..* check changes, reboot if needed
+..* `git add -A; git commit -m 'descriptive message'; git push origin master`
 
 ## Other user configs
 
 <https://github.com/mbbx6spp/mbp-nixos> - on a macbook pro, also has notes on temperature control and brightness
 
 <https://github.com/polynomial/cattle/blob/master/nixos/configuration.nix> - uses trusted binary caches etc
+
+<https://github.com/fooblahblah/nixos/blob/master/configuration.nix> - lots of stuff
 
 # Installation Notes
 
