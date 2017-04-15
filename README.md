@@ -2,17 +2,19 @@
 
 This is the /etc/nixos directory on my roo laptop, an aging Macbook Pro.
 
+The configuration is minimal, most of the custom installation and configuration is done under my user using `nix-env` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-env> or `nix-shell` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-shell>
 
 # Installation Notes
+
+See <https://nixos.org/nixos/manual/index.html#sec-installation>
 
 Booted from a minimal Nixos image (17.03) on a USB stick
 
 Wireless network did not come up. `ifconfig` showed the wireless device but no ip.
 
-I got wifi working by:
-
+To get wifi working:
 ```
-systemctl stp wap_supplicant 
+systemctl stop wap_supplicant 
 
 wpa_passphrase NAME PASS >>/etc/wpa_supplicant.conf 
 wpa_supplicant -B -i wlp2s0b1 -c /etc/wpa_supplicant.conf   # wlp2s0b1 from ifconfig 
@@ -25,7 +27,7 @@ cd /nix/store/*dhcp*
 ip link show
 ```
 
-Installation after that was straight forward
+Installation:
 ```
 gdisk -l /dev/sda
 
