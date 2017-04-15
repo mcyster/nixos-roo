@@ -5,10 +5,11 @@ This is the `/etc/nixos` directory on my roo laptop, an aging Macbook Pro.
 The configuration is minimal, most of the custom installation and configuration is done under my user using `nix-env` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-env> or `nix-shell` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-shell>
 
 Making changes:
-..* change configuration 
-..* `nix-rebuild switch`
-..* check changes, reboot if needed
-..* `git add -A; git commit -m 'descriptive message'; git push origin master`
+
+* change configuration 
+* `nix-rebuild switch`
+* check changes, reboot if needed
+* `git add -A; git commit -m 'descriptive message'; git push origin master`
 
 ## Other user configs
 
