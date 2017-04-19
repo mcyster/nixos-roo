@@ -1,8 +1,10 @@
-# Nixos Config for Roo
+# Nixos config for Roo
 
 This is the `/etc/nixos` directory on my roo laptop, an aging Macbook Pro.
 
 The configuration is minimal, most of the custom installation and configuration is done under my user using `nix-env` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-env> or `nix-shell` <http://nixos.org/releases/nix/nix-1.7/manual/#sec-nix-shell>
+
+## This repo
 
 Making changes:
 
@@ -18,6 +20,12 @@ Making changes:
 <https://github.com/polynomial/cattle/blob/master/nixos/configuration.nix> - uses trusted binary caches etc
 
 <https://github.com/fooblahblah/nixos/blob/master/configuration.nix> - lots of stuff
+
+<https://github.com/kragniz/configuration.nix/blob/master/configuration.nix> - Gnome3
+
+<https://gist.github.com/domenkozar/9071879> - XFCE
+
+<https://github.com/yamafaktory/nixos-configuration> - specified network details
 
 # Installation Notes
 
