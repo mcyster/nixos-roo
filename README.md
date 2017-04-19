@@ -1,4 +1,4 @@
-# Nixos config for Roo
+# Nixos config for `roo`
 
 This is the `/etc/nixos` directory on my roo laptop, an aging Macbook Pro.
 
