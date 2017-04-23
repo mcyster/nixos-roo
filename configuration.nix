@@ -63,6 +63,16 @@
   services.xserver.layout = "us";
   # services.xserver.xkbOptions = "eurosign:e";
 
+  services.dnsmasq.enable = true;
+  services.dnsmasq.extraConfig = ''
+    address=/.lo.intole.net/127.0.0.1
+    address=/.lo.extole.io/10.11.14.16
+    address=/.lo.vokate.com/10.11.14.16
+    address=/my-lo.extole.com/10.11.14.16
+    address=/tags-lo.extole.com/10.11.14.16
+    server=/.intole.net/10.1.0.2
+  '';
+
   # Enable the KDE Desktop Environment.
   # services.xserver.displayManager.sddm.enable = true;
   # services.xserver.desktopManager.plasma5.enable = true;
