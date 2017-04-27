@@ -63,6 +63,12 @@
   services.xserver.layout = "us";
   # services.xserver.xkbOptions = "eurosign:e";
 
+  networking.extraHosts = ''
+    52.3.248.63 vpn.intole.net
+    52.91.195.221 vpn.intole.net
+    54.86.141.200 vpn.intole.net
+  '';
+
   services.dnsmasq.enable = true;
   services.dnsmasq.extraConfig = ''
     address=/.lo.intole.net/127.0.0.1
@@ -90,3 +96,4 @@
 
   nixpkgs.config.allowUnfree = true;
 }
+
