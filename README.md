@@ -27,6 +27,24 @@ Making changes:
 
 <https://github.com/yamafaktory/nixos-configuration> - specified network details
 
+# Gnome3
+
+Key mappings on a macbook
+  - 'fn'+'Fn' -> Fn
+  - 'fn'+'enter' -> Insert
+  - 'fn'+'backspace' -> Delete
+  - 'fn'+'up' -> PageUp
+  - 'fn'+'down' -> PageDown
+  - 'fn'+'left' -> Home
+  - 'fn'+'right' -> End
+
+Copy
+  - 'fn'+'enter'
+  - 'shift'+'control'+'c'
+Paste
+  - 'shift'+'fn'+'enter'
+  - 'shift'+'control'+'v'
+
 # Installation Notes
 
 See <https://nixos.org/nixos/manual/index.html#sec-installation>
