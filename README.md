@@ -30,17 +30,18 @@ Making changes:
 # Gnome3
 
 Key mappings on a macbook
-  - 'fn'+'Fn' -> Fn
-  - 'fn'+'enter' -> Insert
-  - 'fn'+'backspace' -> Delete
-  - 'fn'+'up' -> PageUp
-  - 'fn'+'down' -> PageDown
-  - 'fn'+'left' -> Home
-  - 'fn'+'right' -> End
+  - 'fn'+'Fn' -> 'Fn'
+  - 'fn'+'enter' -> 'Insert'
+  - 'fn'+'backspace' -> 'Delete'
+  - 'fn'+'up' -> 'PageUp'
+  - 'fn'+'down' -> 'PageDown'
+  - 'fn'+'left' -> 'Home'
+  - 'fn'+'right' -> 'End'
 
 Copy
   - 'fn'+'enter'
   - 'shift'+'control'+'c'
+
 Paste
   - 'shift'+'fn'+'enter'
   - 'shift'+'control'+'v'
